@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.boxes{
+    display: flex;
+    
+}
+h2{
+    text-align: center;
+}
+p{
+    color: rgb(100, 6, 6);
+}
+.box{
+    border-radius: 10px; 
+    margin:5px;
+    width: 100px;
+    height: 400px;
+    background-size: cover;
+    transition: 0.5s ease-in;
+    background-position: left;
+    align-items: center;
+    transition: 0.3s ease-in;
+    
+}
+.boxes{
+    width: 700px;
+    height: 800px;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 8px;
+    background-position: center;
+    transition: 0.3s ease-in;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.box:hover {
+    width: 700px;
+    -webkit-box-shadow: -2px 0px 24px 14px rgba(34, 60, 80, 0.15);
+    -moz-box-shadow: -2px 0px 24px 14px rgba(34, 60, 80, 0.15);
+    box-shadow: -2px 0px 24px 14px rgba(34, 60, 80, 0.15);
+} 
+     
+.boxes .box:nth-child(1){
+    background-image: url(./images/top1.webp);
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.boxes .box:nth-child(2){
+    background-image: url(./images/top2.webp);
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.boxes .box:nth-child(3){
+    background-image: url(./images/top3.webp);
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.boxes .box:nth-child(4){
+    background-image: url(./images/top4.webp);
+    border: 2px solid rgb(189, 189, 189);
+}
